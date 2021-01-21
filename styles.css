@@ -1,0 +1,56 @@
+body{
+      background: rgba(112, 106, 106,0.9);
+      margin: 0;
+    }
+    div {
+      box-sizing: border-box;
+    }
+    header{
+      background: white;
+      text-align: center;
+      height: 10%;
+      margin-bottom: 30px;
+    }
+    header h1{
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+    }
+    .post-total {
+      margin-top: 10px;
+      display: flex;
+      align-content: space-around;
+      flex-direction: column;
+      width: 600px;
+      /* height: 90%; */
+    }
+    .post {
+        width: 600px;
+        height: 30%;
+        margin-bottom: 50px;
+        box-sizing: border-box;
+        background: white;
+    }
+    .post img {
+        width: 100%;
+    }
+    .post h2, .post p, .post span {
+        padding: 8px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .container {
+        width: 600px;
+        margin: auto;
+    }
+    .title {
+        display:flex;
+    }
+    h2 {
+        width: 90%;
+        margin-left: 15px;
+      }
+    span {
+        width: 15%;
+        height: 27.5px;
+        margin-block-start: 1.2rem;
+        color:grey;
+        padding: 8px;
